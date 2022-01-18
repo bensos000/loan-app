@@ -23,7 +23,7 @@ export default function Step3() {
                     email: state.email,
                     phone: state.phone,
                     yearlyRevenue: state.yearlyRevenue,
-                    fundingAmount: state.fundingAmount
+                    fundingAmount: data.fundingAmount
                 } 
             });
             await dispatch({ type: ACTIONS.RESET_INFOS });
